@@ -1,2 +1,2 @@
 mss
-pynput
+cv2
