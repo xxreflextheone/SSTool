@@ -37,7 +37,6 @@ def is_holding_keydind():
 
 while True:
     frame = np.array(camera.grab(box))
-    frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
 
     if frame is not None:
         if is_holding_keydind() and time.perf_counter() - pause > 1:
